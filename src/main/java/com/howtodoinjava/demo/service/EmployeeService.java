@@ -15,4 +15,7 @@ public class EmployeeService {
         employeesList.add(new Employee(2,"ryma","bensalah","rymabensalah@gmail.com"));
         return employeesList;
     }
+    public String getEmployeeName() {
+        return "ryma";
+    }
 }
